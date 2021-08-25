@@ -1,4 +1,4 @@
-from cabot.plugins.models import AlertPlugin
+from cabot3.plugins.models import AlertPlugin
 from django import forms
 from os import environ as env
 

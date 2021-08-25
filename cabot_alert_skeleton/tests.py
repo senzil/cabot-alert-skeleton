@@ -1,9 +1,9 @@
 from django.contrib.auth.models import User
-from cabot.cabotapp.tests.tests_basic import LocalTestCase
-from cabot.plugins.models import AlertPluginModel
+from cabot3.cabotapp.tests.tests_basic import LocalTestCase
+from cabot3.plugins.models import AlertPluginModel
 from mock import Mock, patch
 
-from cabot.cabotapp.models import Service
+from cabot3.cabotapp.models import Service
 from cabot_alert_hipchat import plugin
 
 class TestSkeletonAlerts(LocalTestCase):
